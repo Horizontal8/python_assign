@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt 
 from scipy.optimize import fmin_bfgs
-from plotData_answer import plotData
+from plotData import plotData
 from mapFeature import mapFeature
-from costFunctionReg_answer import costFunctionReg
+from costFunctionReg import costFunctionReg
 from plotDecisionBoundary import plotDecisionBoundary
-from predict_answer import predict
+from predict import predict
 
 ## Machine Learning Online Class - Exercise 2: Logistic Regression
 #
