@@ -19,9 +19,9 @@ import scipy.io
 from scipy.optimize import minimize
 from displayData import displayData
 from predict import predict
-from nnCostFunction_answer import nnCostFunction
-from sigmoidGradient_answer import sigmoidGradient
-from randInitializeWeights_answer import randInitializeWeights
+from nnCostFunction import nnCostFunction
+from sigmoidGradient import sigmoidGradient
+from randInitializeWeights import randInitializeWeights
 from checkNNGradients import checkNNGradients
 
 ## Setup the parameters you will use for this exercise
