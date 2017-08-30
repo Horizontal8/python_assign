@@ -4,7 +4,7 @@
 #   threshold at 0.5 (i.e., if sigmoid(theta'*x) >= 0.5, predict 1)
 
 import numpy as np 
-from sigmoid_answer import sigmoid
+from sigmoid import sigmoid
 
 def predict(theta,X):
 	m = X.shape[0]
