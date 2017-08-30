@@ -1,4 +1,4 @@
-from computeCost_answer import computeCost
+from computeCost import computeCost
 
 
 def gradientDescent(X, y, theta, alpha, num_iters):
