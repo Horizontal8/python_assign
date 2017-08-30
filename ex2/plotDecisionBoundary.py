@@ -10,7 +10,7 @@
 import matplotlib.pyplot as plt 
 import numpy as np 
 from mapFeature import mapFeature 
-from plotData_answer import plotData 
+from plotData import plotData 
 
 def plotDecisionBoundary(theta,X,y):
 	plt.figure()
