@@ -2,7 +2,7 @@ import numpy as np
 
 from debugInitializeWeights import debugInitializeWeights
 from computeNumericalGradient import computeNumericalGradient
-from nnCostFunction_answer import nnCostFunction
+from nnCostFunction import nnCostFunction
 
 def checkNNGradients(Lambda = 0):
 
