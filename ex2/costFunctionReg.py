@@ -4,7 +4,7 @@
 #   gradient of the cost w.r.t. to the parameters.
 
 import numpy as np 
-from sigmoid_answer import sigmoid
+from sigmoid import sigmoid
 
 def costFunctionReg(theta, X, y, lambda_reg, return_grad=False):
 	#initialize some useful values
