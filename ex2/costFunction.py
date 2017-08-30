@@ -1,5 +1,5 @@
 import numpy as np 
-from sigmoid_answer import sigmoid
+from sigmoid import sigmoid
 
 def costFunction(theta,X,y,return_grad=False):
 	# Initialize some useful values
